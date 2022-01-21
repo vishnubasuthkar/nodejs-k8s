@@ -15,7 +15,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: adhig93/k8snodejs:version_0
+      - image: vishnubasuthkar/jenkinsk8s:version_0
         name: nodejs
         ports:
         - containerPort: 3080
